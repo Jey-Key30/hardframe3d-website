@@ -132,8 +132,9 @@
     },
     {
       "id": "loudspeaker",
-      "title": "Loudspeaker",
-      "year": "2026",
+      "title": "GRESHNOV Loudspeaker",
+      "title_ru": "Динамик GRESHNOV",
+      "year": "2025",
       "role": "3D Artist",
       "software": "Blender",
       "tris": "—",
@@ -143,17 +144,39 @@
       ],
       "kindKey": "IMAGE",
       "layout": "render",
-      "slot": "LOUDSPEAKER",
+      "slot": "GRESHNOV LOUDSPEAKER",
       "thumb": "assets/thumbs/loudspeaker.jpg",
       "thumbRatio": "640/360",
       "artstationUrl": "https://www.artstation.com/artwork/bg11mg",
-      "summary": "",
-      "task": "TODO(Кирилл): задача",
-      "what_i_did": "TODO(Кирилл): что сделано и полный стек (сейчас в софте указан только Blender)",
+      "summary": "A 3D presentation of a GRESHNOV loudspeaker: a model, renders from several angles and a presentation video. A commercial project for a company website, done through the moskvin.pro creative production.\n\nIn the video the speaker stands on a dark surface while glowing red rings run around it.",
+      "summary_ru": "3D-презентация динамика GRESHNOV: модель, рендеры с разных ракурсов и презентационный ролик. Коммерческий проект для сайта компании, сделанный через креативный продакшн moskvin.pro.\n\nВ ролике динамик стоит на тёмной поверхности, а вокруг него бегут светящиеся красные кольца.",
+      "meta_title": "GRESHNOV Loudspeaker — 3D Model, Renders and Video",
+      "meta_title_ru": "Динамик GRESHNOV — 3D-модель, рендеры и ролик",
+      "meta_description": "3D presentation of a GRESHNOV loudspeaker: a model built from photos, angle renders in Cycles and a 23-second video with glowing rings driven by displacement.",
+      "meta_description_ru": "3D-презентация динамика GRESHNOV: модель по фотографиям, рендеры ракурсов в Cycles и ролик на 23 секунды со светящимися кольцами на драйверах.",
+      "task": {
+        "en": "Make a model of the speaker, a set of renders from different angles and a presentation video for the company's website.",
+        "ru": "Сделать модель динамика, серию рендеров с разных ракурсов и презентационный ролик для сайта компании."
+      },
+      "what_i_did": {
+        "en": "Everything in Blender:\n- modelling from photos of the real speaker taken from different angles;\n- materials and lighting, rendering in Cycles;\n- the animation for the video: the rings and effects run on displacement drivers, and some of them on material shaders, also keyed to the frame with drivers.",
+        "ru": "Всё в Blender:\n- моделирование по фотографиям реального динамика с разных ракурсов;\n- материалы и свет, рендер в Cycles;\n- анимация для ролика: кольца и эффекты сделаны на драйверах дисплейсмента, часть — через шейдеры материалов, тоже с драйверами по кадрам."
+      },
+      "result": {
+        "en": "The client accepted the work. It took less than a week. The video runs 23 seconds in Full HD; rendering in Cycles took a fair share of that time.",
+        "ru": "Заказчик принял работу. На всё ушло меньше недели. Ролик — 23 секунды в Full HD; рендер в Cycles занял заметную часть этого времени."
+      },
+      "production": {
+        "name": "moskvin.pro"
+      },
       "media": [
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "GRESHNOV loudspeaker, three-quarter view from above: cone, basket and the red terminal",
+            "ru": "Динамик GRESHNOV в три четверти сверху: диффузор, корзина и красная клемма"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/loudspeaker/03.jpg",
           "sm": "assets/gallery/loudspeaker/sm/03.jpg"
@@ -161,6 +184,10 @@
         {
           "t": "image",
           "label": "RENDER 02",
+          "alt": {
+            "en": "GRESHNOV loudspeaker, front view: cone and dust cap",
+            "ru": "Динамик GRESHNOV, вид спереди: диффузор и пылезащитный колпачок"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/loudspeaker/01.jpg",
           "sm": "assets/gallery/loudspeaker/sm/01.jpg"
@@ -168,6 +195,10 @@
         {
           "t": "image",
           "label": "RENDER 03",
+          "alt": {
+            "en": "GRESHNOV loudspeaker, rear view: the magnet assembly",
+            "ru": "Динамик GRESHNOV, вид сзади: магнитная система"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/loudspeaker/02.jpg",
           "sm": "assets/gallery/loudspeaker/sm/02.jpg"
@@ -175,6 +206,10 @@
         {
           "t": "image",
           "label": "RENDER 04",
+          "alt": {
+            "en": "GRESHNOV loudspeaker from the side: basket, magnet and terminals",
+            "ru": "Динамик GRESHNOV сбоку: корзина, магнит и клеммы"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/loudspeaker/04.jpg",
           "sm": "assets/gallery/loudspeaker/sm/04.jpg"
