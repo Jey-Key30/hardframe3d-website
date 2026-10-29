@@ -1533,13 +1533,15 @@
     {
       "id": "futuristic-police-car",
       "title": "Futuristic Police Car",
+      "title_ru": "Футуристическая полицейская машина",
       "year": "2023",
       "role": "3D Artist",
-      "software": "Blender · Substance 3D Painter · Photoshop · Marmoset Toolbag",
+      "software": "Blender · Marmoset Toolbag · Substance 3D Painter · Photoshop · CapCut",
       "tris": "8,264",
-      "topic": "HARD-SURFACE",
+      "topic": "HARD-SURFACE / GAME-READY",
       "tags": [
-        "HARD-SURFACE"
+        "HARD-SURFACE",
+        "GAME-READY"
       ],
       "kindKey": "SKETCHFAB",
       "layout": "render",
@@ -1547,7 +1549,36 @@
       "thumb": "assets/thumbs/futuristic-police-car.jpg",
       "thumbRatio": "640/640",
       "artstationUrl": "https://www.artstation.com/artwork/zPnv6Z",
-      "summary": "3D visualization of a police car. The idea is not mine, I took references from Pinterest. There are two types of textures: dusty and rainy.",
+      "summary": "A game-ready 3D model of a futuristic police hover car. A personal project built from a single piece of concept art found on Pinterest. The car comes in two texture versions, rain and dust, and both can be turned around in the Sketchfab viewers on this page.\n\nThe livery reads 警察 POLICE, “police” in Chinese and English, and the NCPD lettering on the back is a nod to Cyberpunk 2077. The night renders are set in a rainy neon city; the daytime ones put the car into real places, from a roadside to a beach.",
+      "summary_ru": "Game-ready 3D-модель футуристического полицейского ховеркара. Личная работа по одному концепт-арту с Pinterest. У машины два варианта текстур — дождливый и пыльный, оба можно покрутить в просмотрщиках Sketchfab на этой странице.\n\nНа борту — принт 警察 POLICE, «полиция» по-китайски и по-английски, а надпись NCPD сзади — отсылка к Cyberpunk 2077. Ночные рендеры сделаны в дождливом неоновом городе, дневные помещают машину в реальные места — от обочины до пляжа.",
+      "meta_title": "Futuristic Police Car — Sci-Fi Hover Car 3D Model",
+      "meta_title_ru": "Футуристическая полицейская машина — 3D-модель",
+      "meta_description": "Game-ready 3D model of a futuristic police hover car: 8,264 tris, rain and dust textures in 4K and 8K, baked in Marmoset. Blender, Substance Painter, Cycles.",
+      "meta_description_ru": "Game-ready 3D-модель футуристического полицейского ховеркара: 8 264 треугольника, текстуры дождя и пыли в 4K и 8K, запекание в Marmoset. Blender и Cycles.",
+      "task": {
+        "en": "Build a game-ready hard-surface vehicle from a single piece of concept art and present it in renders and a short video.",
+        "ru": "Сделать game-ready hard-surface модель машины по одному концепт-арту и показать её в рендерах и коротком ролике."
+      },
+      "what_i_did": {
+        "en": "Everything, from scratch:\n- a high-poly and a low-poly model of 8,264 triangles, UV unwrap — in Blender;\n- baking from the high-poly onto the low-poly in Marmoset Toolbag;\n- texturing in Substance 3D Painter: two separate texture sets, rain and dust;\n- renders in Cycles: the neon city is an asset, the daytime backgrounds are HDRI; light retouching in Photoshop;\n- the video edited in CapCut, with glitch transitions.",
+        "ru": "Всё с нуля:\n- хайполи и лоуполи на 8 264 треугольника, UV-развёртка — в Blender;\n- запекание с хайполи на лоуполи в Marmoset Toolbag;\n- текстуры в Substance 3D Painter: два отдельных текстурных сета — дождь и пыль;\n- рендеры в Cycles: неоновый город — ассет, дневные фоны — HDRI; лёгкая ретушь в Photoshop;\n- монтаж ролика в CapCut, с глитч-переходами."
+      },
+      "result": {
+        "en": "8,264 triangles; both texture sets in 4K and 8K. The video runs 27 seconds, square 1920×1920 at 30 fps: the car flies down a night street. The same video is on YouTube.",
+        "ru": "8 264 треугольника, оба текстурных сета — в 4K и 8K. Ролик — 27 секунд, квадрат 1920×1920, 30 кадров/с: машина летит по ночной улице. Тот же ролик — на YouTube."
+      },
+      "ai_used": {
+        "en": "Only for the main preview. The model, textures and all other renders are my own work.",
+        "ru": "Только для главного превью. Модель, текстуры и остальные рендеры — моя работа."
+      },
+      "credit": {
+        "text": {
+          "en": "3D model based on the concept art by {name}.",
+          "ru": "3D-модель по концепт-арту {name}."
+        },
+        "name": "jetto",
+        "url": "https://jetto.artstation.com/"
+      },
       "media": [
         {
           "t": "sketchfab",
@@ -1563,105 +1594,125 @@
         },
         {
           "t": "image",
-          "label": "RENDER 01",
+          "label": "RENDER 01 · RAIN",
+          "alt": {
+            "en": "“Silent Enforcer” poster: a police hover car in a rainy neon city",
+            "ru": "Постер «Silent Enforcer»: полицейский ховеркар в дождливом неоновом городе"
+          },
           "ratio": "1600/1600",
           "src": "assets/gallery/futuristic-police-car/01.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/01.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 02",
+          "label": "RENDER 02 · RAIN",
           "ratio": "1600/1600",
           "src": "assets/gallery/futuristic-police-car/02.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/02.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 03",
+          "label": "RENDER 03 · RAIN",
+          "alt": {
+            "en": "NCPD police hover car above a wet street in a neon city",
+            "ru": "Полицейский ховеркар NCPD над мокрой улицей неонового города"
+          },
           "ratio": "1600/1575",
           "src": "assets/gallery/futuristic-police-car/03.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/03.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 04",
+          "label": "RENDER 04 · RAIN",
           "ratio": "1600/1600",
           "src": "assets/gallery/futuristic-police-car/04.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/04.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 05",
+          "label": "RENDER 05 · RAIN",
           "ratio": "1600/1600",
           "src": "assets/gallery/futuristic-police-car/05.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/05.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 06",
+          "label": "RENDER 06 · DUST",
+          "alt": {
+            "en": "Futuristic police car with the 警察 POLICE livery on the grass by a road",
+            "ru": "Футуристическая полицейская машина с надписью «警察 POLICE» на траве у дороги"
+          },
           "ratio": "1600/893",
           "src": "assets/gallery/futuristic-police-car/06.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/06.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 07",
+          "label": "RENDER 07 · DUST",
           "ratio": "1600/893",
           "src": "assets/gallery/futuristic-police-car/07.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/07.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 08",
+          "label": "RENDER 08 · RAIN",
           "ratio": "1600/893",
           "src": "assets/gallery/futuristic-police-car/08.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/08.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 09",
+          "label": "RENDER 09 · RAIN",
           "ratio": "1600/900",
           "src": "assets/gallery/futuristic-police-car/09.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/09.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 10",
+          "label": "RENDER 10 · DUST",
           "ratio": "1600/900",
           "src": "assets/gallery/futuristic-police-car/10.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/10.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 11",
+          "label": "RENDER 11 · DUST",
           "ratio": "1600/900",
           "src": "assets/gallery/futuristic-police-car/11.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/11.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 12",
+          "label": "RENDER 12 · DUST",
+          "alt": {
+            "en": "Close-up of the side: the characters 警察 and the word POLICE",
+            "ru": "Крупный план борта: иероглифы 警察 и надпись POLICE"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/futuristic-police-car/12.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/12.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 13",
+          "label": "RENDER 13 · DUST",
           "ratio": "1600/900",
           "src": "assets/gallery/futuristic-police-car/13.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/13.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 14",
+          "label": "RENDER 14 · DUST",
           "ratio": "1600/900",
           "src": "assets/gallery/futuristic-police-car/14.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/14.jpg"
         },
         {
           "t": "image",
-          "label": "RENDER 15",
+          "label": "RENDER 15 · RAIN",
+          "alt": {
+            "en": "Police hover car flying over a forest",
+            "ru": "Полицейский ховеркар летит над лесом"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/futuristic-police-car/15.jpg",
           "sm": "assets/gallery/futuristic-police-car/sm/15.jpg"
@@ -1679,8 +1730,7 @@
           "videoId": "cdjTsuvI7Kw",
           "label": "YOUTUBE SHORTS"
         }
-      ],
-      "summary_ru": "3D-визуализация полицейской машины. Идея не моя, референсы брал с Pinterest. Есть два варианта текстур: пыльный и дождливый."
+      ]
     },
     {
       "id": "coming-soon",
