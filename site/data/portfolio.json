@@ -403,7 +403,9 @@
     },
     {
       "id": "sci-fi-russian-railway-station",
+      "status": "rework",
       "title": "Sci-Fi Russian Railway Station",
+      "title_ru": "Фантастический российский вокзал",
       "year": "2026",
       "role": "VFX Artist",
       "software": "Blender · Nano Banana · After Effects",
@@ -418,12 +420,36 @@
       "thumb": "assets/thumbs/sci-fi-russian-railway-station.jpg",
       "thumbRatio": "502/900",
       "artstationUrl": "https://www.artstation.com/artwork/98qdvq",
-      "summary": "Personal VFX piece: a sci-fi take on a Russian railway station.",
-      "ai_used": "TODO(Кирилл): что делал Nano Banana",
+      "summary": "A vertical VFX video: a futuristic train pulls in at an ordinary railway station of today. A personal project, practice in the viral VFX videos that popular creators make. The footage is real, shot at my local station; the train is added with 3D graphics.\n\nThe idea is the contrast: a train from the future arrives at a perfectly everyday platform. The style is partly inspired by the series Cyber Village (Kiberderevnya), which takes this mix as far as it goes.",
+      "summary_ru": "Вертикальный VFX-ролик: к обычному вокзалу наших дней подъезжает футуристический поезд. Личная работа — тренировка в вирусных VFX-роликах, какие делают популярные авторы. Съёмка реальная — это вокзал моего города, а поезд добавлен 3D-графикой.\n\nСуть в контрасте: поезд из будущего приходит на самый обычный перрон. Стиль отчасти навеян сериалом «Кибердеревня», где такое сочетание раскрыто на максимум.",
+      "meta_title": "Sci-Fi Russian Railway Station — VFX Shot",
+      "meta_title_ru": "Фантастический российский вокзал — VFX-ролик",
+      "meta_description": "VFX video: a futuristic CG train pulls in at a real Russian railway station. Camera tracked in After Effects, animation and Cycles render in Blender.",
+      "meta_description_ru": "VFX-ролик: футуристический CG-поезд подъезжает к реальному российскому вокзалу. Трекинг камеры в After Effects, анимация и рендер Cycles в Blender.",
+      "task": {
+        "en": "Try the viral VFX format myself: take real footage and bring a CG train into it.",
+        "ru": "Попробовать самому формат вирусного VFX: взять реальную съёмку и встроить в неё CG-поезд."
+      },
+      "what_i_did": {
+        "en": "Tracking, animation and rendering:\n- camera tracking of the footage in After Effects, then the After Effects camera carried over to the Blender camera;\n- the train is a ready-made model from Sketchfab: I animated it in Blender and matched the light to the footage;\n- rendering in Cycles.",
+        "ru": "Трекинг, анимация и рендер:\n- трекинг камеры по съёмке в After Effects и перенос камеры из After Effects на камеру в Blender;\n- поезд — готовая модель со Sketchfab: я анимировал его в Blender и подогнал свет под съёмку;\n- рендер в Cycles."
+      },
+      "result": {
+        "en": "A 13-second vertical video in 4K (2160×3840, 30 fps), made as a speed project: three days for everything. The two stills on this page are frames from it, enhanced with AI (see the AI line).\n\nThe work is now being redone: the video will go through the new neural networks in Higgsfield to reach the realism of the AI stills.",
+        "ru": "Вертикальный ролик на 13 секунд в 4K (2160×3840, 30 кадров/с), сделанный на скорость: три дня на всё. Два изображения на этой странице — кадры из него, обработанные ИИ (см. строку «ИИ»).\n\nСейчас работа переделывается: ролик пройдёт через новые нейросети Higgsfield, чтобы выйти на реализм, как на кадрах с ИИ."
+      },
+      "ai_used": {
+        "en": "Nano Banana went over frames of the video for the stills on this page and made the light and colour richer; the day and sunset versions are two of its variants. The video itself is the Cycles render over real footage.",
+        "ru": "Nano Banana обработал кадры из ролика для изображений на этой странице и сделал свет и цвет сочнее; дневная и закатная версии — два его варианта. Сам ролик — рендер Cycles поверх реальной съёмки."
+      },
       "media": [
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "A yellow futuristic train hovers over the tracks by a station platform at sunset",
+            "ru": "Жёлтый футуристический поезд парит над рельсами у перрона вокзала на закате"
+          },
           "ratio": "893/1600",
           "src": "assets/gallery/sci-fi-russian-railway-station/01.jpg",
           "sm": "assets/gallery/sci-fi-russian-railway-station/sm/01.jpg"
@@ -431,6 +457,10 @@
         {
           "t": "image",
           "label": "RENDER 02",
+          "alt": {
+            "en": "The same shot by day: the yellow futuristic train over the tracks under a blue sky",
+            "ru": "Тот же кадр днём: жёлтый футуристический поезд над рельсами под голубым небом"
+          },
           "ratio": "893/1600",
           "src": "assets/gallery/sci-fi-russian-railway-station/02.jpg",
           "sm": "assets/gallery/sci-fi-russian-railway-station/sm/02.jpg"
@@ -440,8 +470,7 @@
           "videoId": "iXjIIYl0QUU",
           "label": "YOUTUBE SHORTS"
         }
-      ],
-      "summary_ru": "Личная VFX-работа: научно-фантастический взгляд на российский вокзал."
+      ]
     },
     {
       "id": "lightcycle-metro",
