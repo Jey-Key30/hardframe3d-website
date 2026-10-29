@@ -639,10 +639,11 @@
     },
     {
       "id": "death-of-a-pirate",
-      "title": "Death of a pirate",
+      "title": "Death of a Pirate",
+      "title_ru": "Смерть пирата",
       "year": "2025",
       "role": "3D Artist",
-      "software": "Blender",
+      "software": "Blender · CapCut",
       "tris": "—",
       "topic": "ENVIRONMENT",
       "tags": [
@@ -654,12 +655,32 @@
       "thumb": "assets/thumbs/death-of-a-pirate.jpg",
       "thumbRatio": "640/323",
       "artstationUrl": "https://www.artstation.com/artwork/3Egk2D",
-      "summary": "- What sort of a man trades a man's life for a ship? - Pirate.",
-      "what_i_did": "TODO(Кирилл): описание работы — что сделано и как",
+      "summary": "“What sort of a man trades a man's life for a ship?” — “Pirate.”\n\nA short cinematic scene inspired by Pirates of the Caribbean: a pirate grieves on the shore over his burning ship. A personal project. The idea is the drama of the moment: for a pirate, losing his ship is close to dying.\n\nIn the 15-second video the camera glides low over the sand and opens up the beach: the ship burns against the rocks, rain falls, and the pirate at the water's edge sinks to his knees.",
+      "summary_ru": "— Что за человек меняет жизнь человека на корабль? — Пират.\n\nКороткая кинематографичная сцена по мотивам «Пиратов Карибского моря»: пират скорбит на берегу над своим горящим кораблём. Личная работа. Идея — драматизм момента: для пирата лишиться корабля — почти как умереть.\n\nВ ролике на 15 секунд камера низко идёт над песком и открывает пляж: у скал горит корабль, идёт дождь, а пират у кромки воды опускается на колени.",
+      "meta_title": "Death of a Pirate — Pirates of the Caribbean Fan Scene",
+      "meta_title_ru": "Смерть пирата — 3D-сцена по «Пиратам Карибского моря»",
+      "meta_description": "Cinematic 3D scene inspired by Pirates of the Caribbean: a pirate grieves over his burning ship on the shore. Blender, Cycles, footage fire, particle rain.",
+      "meta_description_ru": "Кинематографичная 3D-сцена по мотивам «Пиратов Карибского моря»: пират скорбит на берегу у горящего корабля. Blender, Cycles, огонь из футажей, дождь частицами.",
+      "task": {
+        "en": "It started as practice: I wanted to try a realistic render style that was new to me, and at first the scene was just a grey beach. The picture looked dull, so I kept adding detail, and step by step it turned into a grieving pirate on the shore. The technical goal was the most realistic image for the least computing power.",
+        "ru": "Всё началось с тренировки: хотел попробовать новый для себя реалистичный стиль рендера, и сначала сцена была просто серым пляжем. Картинка выходила скучной, я добавлял детали, потом ещё — и постепенно сложилась сцена со скорбящим пиратом на берегу. Техническая цель — максимально реалистичная картинка при минимальных затратах мощности."
+      },
+      "what_i_did": {
+        "en": "Scene assembly, shading and rendering in Blender:\n- the ship is an asset: I made its textures and extra elements by hand with shaders;\n- the pirate is an animated Mixamo character;\n- the rocks are flat images from openly available sources, the sand is high-resolution textures;\n- fire and smoke are footage layered with transparency, the sky and sea are textures and footage plus an HDRI;\n- the rain is a particle system in Blender, the only simulation in the scene;\n- rendering in Cycles, compositing in CapCut.",
+        "ru": "Сборка сцены, шейдинг и рендер в Blender:\n- корабль — ассет: текстуры и дополнительные элементы я сделал вручную шейдерами;\n- пират — анимированный персонаж из Mixamo;\n- скалы — плоские изображения из открытого доступа, песок — текстуры высокого разрешения;\n- огонь и дым — футажи с прозрачностью, небо и море — текстуры и футажи плюс HDRI;\n- дождь — частицы в Blender, единственная симуляция в сцене;\n- рендер в Cycles, композ в CapCut."
+      },
+      "result": {
+        "en": "A 15-second widescreen video, 1920×800 at 30 fps. The preview is a frame from it with the original logo of the films, so the mood and the point of the video read at first glance.",
+        "ru": "Широкоформатный ролик на 15 секунд, 1920×800, 30 кадров/с. Превью — кадр из него с оригинальным логотипом фильмов, чтобы атмосфера и суть ролика читались с первого взгляда."
+      },
       "media": [
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "Title frame: a skull and crossbones and the Pirates of the Caribbean logo over a burning ship on the shore",
+            "ru": "Титульный кадр: череп с костями и логотип Pirates of the Caribbean над горящим кораблём на берегу"
+          },
           "ratio": "1600/808",
           "src": "assets/gallery/death-of-a-pirate/01.jpg",
           "sm": "assets/gallery/death-of-a-pirate/sm/01.jpg"
@@ -676,9 +697,19 @@
           "src": "assets/gallery/death-of-a-pirate/01.mp4",
           "sm": "assets/gallery/death-of-a-pirate/sm/01.mp4",
           "poster": "assets/gallery/death-of-a-pirate/poster/01.jpg"
+        },
+        {
+          "t": "image",
+          "label": "EARLY DRAFT",
+          "alt": {
+            "en": "Early development frame: a grey beach, the ship intact by the rocks and a test object in the middle",
+            "ru": "Ранний кадр разработки: серый пляж, целый корабль у скал и тестовый объект в центре"
+          },
+          "ratio": "1280/576",
+          "src": "assets/gallery/death-of-a-pirate/02.jpg",
+          "sm": "assets/gallery/death-of-a-pirate/sm/02.jpg"
         }
-      ],
-      "summary_ru": "— Что за человек меняет жизнь человека на корабль? — Пират."
+      ]
     },
     {
       "id": "ummc-tennis-championship",

@@ -17,6 +17,17 @@
     "assets/gallery/death-of-a-pirate/01.webp": {
       "src": "b61e6d8493f378c5"
     },
+    "assets/gallery/death-of-a-pirate/02.avif": {
+      "src": "8612b19d21c6fe82"
+    },
+    "assets/gallery/death-of-a-pirate/02.jpg": {
+      "src": "8612b19d21c6fe82",
+      "w": 1280,
+      "h": 576
+    },
+    "assets/gallery/death-of-a-pirate/02.webp": {
+      "src": "8612b19d21c6fe82"
+    },
     "assets/gallery/death-of-a-pirate/poster/01.jpg": {
       "src": "5048f55c9bbee011",
       "w": 1280,
@@ -33,6 +44,15 @@
     },
     "assets/gallery/death-of-a-pirate/sm/01.webp": {
       "src": "1b723193505e4ac5"
+    },
+    "assets/gallery/death-of-a-pirate/sm/02.avif": {
+      "src": "c0e16b681fbcefe3"
+    },
+    "assets/gallery/death-of-a-pirate/sm/02.jpg": {
+      "src": "8612b19d21c6fe82"
+    },
+    "assets/gallery/death-of-a-pirate/sm/02.webp": {
+      "src": "c0e16b681fbcefe3"
     },
     "assets/gallery/forsa/01.avif": {
       "src": "9068ecb290de9ae6"
