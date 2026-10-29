@@ -946,6 +946,7 @@
     {
       "id": "spartan-helmet-metro-2033",
       "title": "Spartan Helmet Metro 2033",
+      "title_ru": "Шлем спартанца из Metro 2033",
       "year": "2023",
       "role": "3D Artist",
       "software": "Blender · Marmoset Toolbag · Substance 3D Painter · Photoshop",
@@ -962,7 +963,28 @@
       "thumbRatio": "640/357",
       "artstationUrl": "https://www.artstation.com/artwork/ao66Kq",
       "sketchfabUrl": "https://sketchfab.com/3d-models/spartan-helmet-metro-2033-2f092d24d83c45e5998b772cbcba6d9a",
-      "summary": "3D helmet model from the Metro 2033 game. I hope you enjoy my work and you will appreciate it)",
+      "summary": "A game-ready 3D model of the Spartan helmet from the Metro games. A personal project I made after playing Metro 2033 and Metro: Last Light.",
+      "summary_ru": "Game-ready 3D-модель шлема спартанца из серии Metro. Личная работа: сделал её после прохождения игр «Метро 2033» и Metro: Last Light.",
+      "meta_title": "Spartan Helmet from Metro 2033 — Game-Ready 3D Model",
+      "meta_title_ru": "Шлем спартанца из Metro 2033 — 3D-модель",
+      "meta_description": "Game-ready 3D model of the Spartan helmet from Metro 2033: 10,884 tris, baked from a 1.4M-poly high-poly, seven 4K PBR maps. Blender and Substance Painter.",
+      "meta_description_ru": "Game-ready 3D-модель шлема спартанца из «Метро 2033»: 10 884 треугольника, запекание с хайполи на 1,4 млн полигонов, семь карт 4K. Blender и Substance Painter.",
+      "task": {
+        "en": "Practise the full game-ready pipeline on a model that caught my eye, and add a finished hard-surface asset to the portfolio. I aimed to stay close to the in-game helmet. References: screenshots from the games, other 3D models of this helmet and photos of real-life replicas. The result is close to the original, though in places it is more of a composite than an exact copy of the canon.",
+        "ru": "Отработать полный game-ready пайплайн на модели, которая зацепила, и пополнить портфолио готовым hard-surface ассетом. Ориентировался на игровой шлем. Референсы: скриншоты из игр, другие 3D-модели этого шлема и фото реальных реплик. Получилось близко к оригиналу, но местами это скорее собирательный образ, чем точная копия канона."
+      },
+      "what_i_did": {
+        "en": "Everything, from scratch:\n- a high-poly model of 1.4 million polygons and a low-poly game mesh of 10,884 triangles, both in Blender;\n- UV unwrap in Blender, baking from the high-poly onto the low-poly in Marmoset Toolbag;\n- texturing in Substance 3D Painter: worn paint, scratches and chips are painted into a single texture set;\n- the material set up in Blender, renders on HDRI environments, light retouching in Photoshop.",
+        "ru": "Всё с нуля:\n- хайполи на 1,4 млн полигонов и игровой лоуполи на 10 884 треугольника — в Blender;\n- UV-развёртка в Blender, запекание с хайполи на лоуполи в Marmoset Toolbag;\n- текстуры в Substance 3D Painter: потёртости, царапины и сколы краски нарисованы в одной текстуре;\n- материал собран в Blender, рендеры на HDRI-окружениях, лёгкая ретушь в Photoshop."
+      },
+      "result": {
+        "en": "One material with seven 4K maps: base colour, metallic, roughness, normal, ambient occlusion, displacement and alpha. The model can be turned around in the Sketchfab viewer on this page, and the video is a looping 360° turntable. Today I would put the wear on a separate overlay layer instead of keeping it inside one texture.",
+        "ru": "Один материал и семь карт 4K: base color, metallic, roughness, normal, ambient occlusion, displacement и alpha. Модель можно покрутить в просмотрщике Sketchfab на этой странице, а в видео — зацикленный облёт на 360°. Сейчас я бы вынес износ в отдельный слой-оверлей, а не держал его в одной текстуре."
+      },
+      "ai_used": {
+        "en": "Only the main preview: AI made its colour and light richer. The model, textures and all other renders are my own work.",
+        "ru": "Только главное превью: ИИ сделал цвет и свет насыщеннее. Модель, текстуры и остальные рендеры — моя работа."
+      },
       "media": [
         {
           "t": "sketchfab",
@@ -973,6 +995,10 @@
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "Spartan helmet from Metro 2033 on a stone parapet by the river: goggles, respirator filters, worn metal",
+            "ru": "Шлем спартанца из Metro 2033 на каменном парапете у реки: очки, респиратор с фильтрами, потёртый металл"
+          },
           "ratio": "1600/893",
           "src": "assets/gallery/spartan-helmet-metro-2033/01.jpg",
           "sm": "assets/gallery/spartan-helmet-metro-2033/sm/01.jpg"
@@ -980,6 +1006,10 @@
         {
           "t": "image",
           "label": "RENDER 02",
+          "alt": {
+            "en": "Spartan helmet, front view: panoramic goggles and a respirator with two filters",
+            "ru": "Шлем спартанца, вид спереди: панорамные очки и респиратор с двумя фильтрами"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/spartan-helmet-metro-2033/02.jpg",
           "sm": "assets/gallery/spartan-helmet-metro-2033/sm/02.jpg"
@@ -994,6 +1024,10 @@
         {
           "t": "image",
           "label": "RENDER 04",
+          "alt": {
+            "en": "Spartan helmet in profile: the “SPARTA” stencil and a red emblem on the side",
+            "ru": "Шлем спартанца в профиль: надпись «СПАРТА» и красная эмблема на боку"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/spartan-helmet-metro-2033/04.jpg",
           "sm": "assets/gallery/spartan-helmet-metro-2033/sm/04.jpg"
@@ -1001,6 +1035,10 @@
         {
           "t": "image",
           "label": "RENDER 05",
+          "alt": {
+            "en": "Spartan helmet, three-quarter view: chipped paint and scratches on the metal",
+            "ru": "Шлем спартанца в три четверти: сколы краски и царапины на металле"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/spartan-helmet-metro-2033/05.jpg",
           "sm": "assets/gallery/spartan-helmet-metro-2033/sm/05.jpg"
@@ -1146,8 +1184,7 @@
           "sm": "assets/gallery/spartan-helmet-metro-2033/sm/360.mp4",
           "poster": "assets/gallery/spartan-helmet-metro-2033/poster/360.jpg"
         }
-      ],
-      "summary_ru": "3D-модель шлема из игры Metro 2033. Надеюсь, работа вам понравится)"
+      ]
     },
     {
       "id": "robot-scout",
