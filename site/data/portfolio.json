@@ -1299,10 +1299,11 @@
     },
     {
       "id": "robot-scout",
-      "title": "Robot scout",
+      "title": "Robot Scout",
+      "title_ru": "Робот-разведчик",
       "year": "2023",
       "role": "3D Artist",
-      "software": "Blender · Substance 3D Painter · Photoshop",
+      "software": "Blender · Marmoset Toolbag · Substance 3D Painter · Photoshop",
       "tris": "96,494",
       "topic": "HARD-SURFACE / GAME-READY",
       "tags": [
@@ -1316,7 +1317,28 @@
       "thumbRatio": "640/357",
       "artstationUrl": "https://www.artstation.com/artwork/1xlJyo",
       "sketchfabUrl": "https://sketchfab.com/3d-models/robot-scout-a51179ee802b4ffd89e90974911ebf91",
-      "summary": "Just a 3D model of a robot.",
+      "summary": "A game-ready 3D model of a four-legged scout robot. A personal project I made to practise hard-surface modelling and to add to the portfolio. The design follows a reference image found on Pinterest; its author is unknown.\n\nThe robot is rigged, and the renders show it in different poses: by the water, in a field, at the edge of a forest and in a snowy forest.",
+      "summary_ru": "Game-ready 3D-модель четырёхногого робота-разведчика. Личная работа: сделал её, чтобы потренироваться в hard-surface моделировании и пополнить портфолио. Дизайн — по референсу с Pinterest, автор оригинала неизвестен.\n\nУ робота есть риг, и на рендерах он стоит в разных позах: у воды, в поле, на опушке леса и в зимнем лесу.",
+      "meta_title": "Robot Scout — Hard-Surface 3D Model",
+      "meta_title_ru": "Робот-разведчик — 3D-модель",
+      "meta_description": "Game-ready 3D model of a four-legged scout robot: 96,494 tris, an IK rig, one texture set in 4K and 8K, baked in Marmoset. Blender, Substance Painter, Cycles.",
+      "meta_description_ru": "Game-ready 3D-модель четырёхногого робота-разведчика: 96 494 треугольника, риг с IK, текстуры 4K и 8K, запекание в Marmoset. Blender, Substance Painter, Cycles.",
+      "task": {
+        "en": "Practise hard-surface modelling and the game-ready pipeline, and add a finished model to the portfolio. The starting point was a reference image from Pinterest; the model, the rig and the textures are built from scratch.",
+        "ru": "Потренироваться в hard-surface моделировании и game-ready пайплайне и пополнить портфолио готовой моделью. Отправной точкой была картинка с Pinterest; модель, риг и текстуры сделаны с нуля."
+      },
+      "what_i_did": {
+        "en": "Everything, from scratch:\n- the model and UV unwrap in Blender;\n- baking in Marmoset Toolbag;\n- texturing in Substance 3D Painter: worn paint, chips and the WARNING markings are painted straight into the textures;\n- a rig with inverse kinematics for animating the legs;\n- renders in Cycles on HDRI environments, light retouching in Photoshop;\n- the video: a camera orbit around the model, also on YouTube.",
+        "ru": "Всё с нуля:\n- модель и UV-развёртка в Blender;\n- запекание в Marmoset Toolbag;\n- текстуры в Substance 3D Painter: потёртости, сколы краски и надписи WARNING нарисованы прямо в текстурах;\n- риг с инверсной кинематикой для анимации ног;\n- рендеры в Cycles на HDRI-окружениях, лёгкая ретушь в Photoshop;\n- ролик: облёт камерой вокруг модели, он же на YouTube."
+      },
+      "result": {
+        "en": "96,494 triangles and one texture set for the whole model, exported in two resolutions: 4K and 8K. The material uses seven maps: base colour, metallic, roughness, normal, ambient occlusion, emission and displacement. The model can be turned around in the Sketchfab viewer on this page, and both the vertical video and the one on YouTube show it in a camera orbit.",
+        "ru": "96 494 треугольника и один текстурный сет на всю модель в двух разрешениях — 4K и 8K. В материале семь карт: base color, metallic, roughness, normal, ambient occlusion, emission и displacement. Модель можно покрутить в просмотрщике Sketchfab на этой странице, а в вертикальном ролике и на YouTube — облёт камерой вокруг неё."
+      },
+      "ai_used": {
+        "en": "Only the main preview: AI made its colour and light richer. The model, rig, textures and all other renders are my own work.",
+        "ru": "Только главное превью: ИИ сделал цвет и свет насыщеннее. Модель, риг, текстуры и остальные рендеры — моя работа."
+      },
       "media": [
         {
           "t": "sketchfab",
@@ -1327,6 +1349,10 @@
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "Scout robot close-up: the red sensor and green armour with worn paint",
+            "ru": "Робот-разведчик крупным планом: красный сенсор и зелёная броня с потёртостями"
+          },
           "ratio": "1600/893",
           "src": "assets/gallery/robot-scout/01.jpg",
           "sm": "assets/gallery/robot-scout/sm/01.jpg"
@@ -1341,6 +1367,10 @@
         {
           "t": "image",
           "label": "RENDER 03",
+          "alt": {
+            "en": "WARNING stencil on the scout robot's armour next to the red sensor",
+            "ru": "Надпись WARNING на броне робота-разведчика рядом с красным сенсором"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/robot-scout/03.jpg",
           "sm": "assets/gallery/robot-scout/sm/03.jpg"
@@ -1362,6 +1392,10 @@
         {
           "t": "image",
           "label": "RENDER 06",
+          "alt": {
+            "en": "Four-legged scout robot in a field",
+            "ru": "Четырёхногий робот-разведчик в поле"
+          },
           "ratio": "1600/893",
           "src": "assets/gallery/robot-scout/06.jpg",
           "sm": "assets/gallery/robot-scout/sm/06.jpg"
@@ -1376,6 +1410,10 @@
         {
           "t": "image",
           "label": "RENDER 08",
+          "alt": {
+            "en": "Scout robot in a snowy forest",
+            "ru": "Робот-разведчик в зимнем лесу"
+          },
           "ratio": "1600/893",
           "src": "assets/gallery/robot-scout/08.jpg",
           "sm": "assets/gallery/robot-scout/sm/08.jpg"
@@ -1383,6 +1421,10 @@
         {
           "t": "image",
           "label": "RENDER 09",
+          "alt": {
+            "en": "Clay render of the scout robot: geometry without textures",
+            "ru": "Clay-рендер робота-разведчика: геометрия без текстур"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/robot-scout/09.jpg",
           "sm": "assets/gallery/robot-scout/sm/09.jpg"
@@ -1397,18 +1439,17 @@
         {
           "t": "youtube",
           "videoId": "P6_9MFnhcfQ",
-          "label": "BREAKDOWN · YOUTUBE"
+          "label": "YOUTUBE SHORTS"
         },
         {
           "t": "video",
           "label": "VIDEO 01",
           "ratio": "1080/1920",
-          "src": "assets/gallery/robot-scout/0304.mp4",
-          "sm": "assets/gallery/robot-scout/sm/0304.mp4",
-          "poster": "assets/gallery/robot-scout/poster/0304.jpg"
+          "src": "assets/gallery/robot-scout/01.mp4",
+          "sm": "assets/gallery/robot-scout/sm/01.mp4",
+          "poster": "assets/gallery/robot-scout/poster/01.jpg"
         }
-      ],
-      "summary_ru": "Просто 3D-модель робота."
+      ]
     },
     {
       "id": "futuristic-police-car",

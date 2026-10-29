@@ -847,6 +847,11 @@
       "w": 1600,
       "h": 893
     },
+    "assets/gallery/robot-scout/01.mp4": {
+      "src": "2814c2dd17faba98",
+      "w": 1080,
+      "h": 1920
+    },
     "assets/gallery/robot-scout/01.webp": {
       "src": "b8e68d5baccb23e3"
     },
@@ -871,11 +876,6 @@
     },
     "assets/gallery/robot-scout/03.webp": {
       "src": "922c850b09c75ccd"
-    },
-    "assets/gallery/robot-scout/0304.mp4": {
-      "src": "2814c2dd17faba98",
-      "w": 1080,
-      "h": 1920
     },
     "assets/gallery/robot-scout/04.avif": {
       "src": "54d8063beb9f136d"
@@ -954,7 +954,7 @@
     "assets/gallery/robot-scout/10.webp": {
       "src": "b4f6b9d82fbe8d1d"
     },
-    "assets/gallery/robot-scout/poster/0304.jpg": {
+    "assets/gallery/robot-scout/poster/01.jpg": {
       "src": "2814c2dd17faba98",
       "w": 720,
       "h": 1280
@@ -964,6 +964,9 @@
     },
     "assets/gallery/robot-scout/sm/01.jpg": {
       "src": "b8e68d5baccb23e3"
+    },
+    "assets/gallery/robot-scout/sm/01.mp4": {
+      "src": "2814c2dd17faba98"
     },
     "assets/gallery/robot-scout/sm/01.webp": {
       "src": "f02f3bb90f76ba5a"
@@ -985,9 +988,6 @@
     },
     "assets/gallery/robot-scout/sm/03.webp": {
       "src": "57f58ab4e3d603d0"
-    },
-    "assets/gallery/robot-scout/sm/0304.mp4": {
-      "src": "2814c2dd17faba98"
     },
     "assets/gallery/robot-scout/sm/04.avif": {
       "src": "ca6cb4364ee3b0d1"
