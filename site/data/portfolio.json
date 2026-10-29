@@ -228,6 +228,7 @@
       "id": "usmu-campus",
       "status": "rework",
       "title": "USMU Campus",
+      "title_ru": "Кампус УГМУ",
       "year": "2026",
       "role": "3D Artist",
       "software": "Blender · Nano Banana",
@@ -242,12 +243,39 @@
       "thumb": "assets/thumbs/usmu-campus.jpg",
       "thumbRatio": "640/640",
       "artstationUrl": "https://www.artstation.com/artwork/vbGGEa",
-      "summary": "",
-      "ai_used": "TODO(Кирилл): что делал Nano Banana",
+      "summary": "Renders of the future campus of the Ural State Medical University (USMU) in the Akademichesky medical innovation cluster in Yekaterinburg. A commercial project for the university, done through the moskvin.pro creative production.\n\nThe images show the campus from above and among the city blocks, the main entrance and the atrium inside.",
+      "summary_ru": "Рендеры будущего кампуса Уральского государственного медицинского университета (УГМУ) в медицинском инновационном кластере «Академический» в Екатеринбурге. Коммерческий проект для университета, сделанный через креативный продакшн moskvin.pro.\n\nНа рендерах — кампус с высоты и в городской застройке, главный вход и атриум внутри.",
+      "meta_title": "USMU Campus — Architectural 3D Visualisation",
+      "meta_title_ru": "Кампус УГМУ — архитектурная 3D-визуализация",
+      "meta_description": "Architectural 3D visualisation of the future USMU campus in Yekaterinburg: the building modelled from scratch, Cycles renders that went on a university poster.",
+      "meta_description_ru": "Архитектурная 3D-визуализация будущего кампуса УГМУ в Екатеринбурге: модель с нуля по референсам, рендеры в Cycles для плаката университета.",
+      "task": {
+        "en": "Make renders and an animation of the campus. The original 3D models of the building had not survived, so I rebuilt it myself from references and older renders of the design.",
+        "ru": "Сделать рендеры и анимацию кампуса. Исходные 3D-модели здания не сохранились, поэтому модель я собрал сам — по референсам и старым рендерам проекта."
+      },
+      "what_i_did": {
+        "en": "Everything myself:\n- the building modelled from scratch in Blender from references and the old renders;\n- the scene put together: surroundings, people and trees from asset libraries;\n- materials, lighting and rendering in Cycles;\n- a Nano Banana pass over the finished renders (see the AI line).",
+        "ru": "Всё сам:\n- модель здания с нуля в Blender по референсам и старым рендерам;\n- сборка сцены: окружение, люди и деревья из библиотек ассетов;\n- материалы, свет и рендер в Cycles;\n- обработка готовых рендеров в Nano Banana (см. строку «ИИ»)."
+      },
+      "result": {
+        "en": "An urgent order: three days for the whole job, one of them for rendering. The renders went on the poster “USMU 2030 — the image of the university of the future” in the university's old building, captioned as the campus project in the Akademichesky medical innovation cluster.\n\nThe work is now being redone: the surroundings will be built in full detail in 3D instead of the AI pass, and the video renders will go through Higgsfield.",
+        "ru": "Срочный заказ: три дня на всё, из них день на рендеры. Рендеры вошли в плакат «УГМУ 2030 — образ университета будущего» в старом корпусе университета с подписью «Проект кампуса Университета в Медицинском инновационном кластере „Академический“».\n\nСейчас работа переделывается: окружение будет детально проработано «честной» 3D-графикой вместо обработки ИИ, а видеорендеры пройдут через Higgsfield."
+      },
+      "production": {
+        "name": "moskvin.pro"
+      },
+      "ai_used": {
+        "en": "Nano Banana went over all the current renders: it livened up the surroundings and made the images richer. The model, the scene and the Cycles renders are mine.",
+        "ru": "Nano Banana обработал все текущие рендеры: оживил окружение и сделал картинку сочнее. Модель, сцена и рендер в Cycles — мои."
+      },
       "media": [
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "USMU campus from above: a three-winged building with glass roof lanterns and green courtyards",
+            "ru": "Кампус УГМУ с высоты: здание с тремя крыльями, стеклянные фонари на крыше и зелёные дворы"
+          },
           "ratio": "1536/1536",
           "src": "assets/gallery/usmu-campus/01.jpg",
           "sm": "assets/gallery/usmu-campus/sm/01.jpg"
@@ -262,6 +290,10 @@
         {
           "t": "image",
           "label": "RENDER 03",
+          "alt": {
+            "en": "USMU campus among the city blocks: a pentagonal courtyard, the tower and glass roofs",
+            "ru": "Кампус УГМУ в городской застройке: пятиугольный двор, башня и стеклянные кровли"
+          },
           "ratio": "1600/883",
           "src": "assets/gallery/usmu-campus/03.jpg",
           "sm": "assets/gallery/usmu-campus/sm/03.jpg"
@@ -276,6 +308,10 @@
         {
           "t": "image",
           "label": "RENDER 05",
+          "alt": {
+            "en": "Main entrance of the USMU campus: the square in front of the building with a glass lantern",
+            "ru": "Главный вход кампуса УГМУ: площадь перед зданием со стеклянным фонарём"
+          },
           "ratio": "1600/893",
           "src": "assets/gallery/usmu-campus/05.jpg",
           "sm": "assets/gallery/usmu-campus/sm/05.jpg"
@@ -283,9 +319,24 @@
         {
           "t": "image",
           "label": "RENDER 06",
+          "alt": {
+            "en": "USMU campus atrium: galleries on several levels, a hedge and people",
+            "ru": "Атриум кампуса УГМУ: многоуровневые галереи, живая изгородь и люди"
+          },
           "ratio": "1600/893",
           "src": "assets/gallery/usmu-campus/06.jpg",
           "sm": "assets/gallery/usmu-campus/sm/06.jpg"
+        },
+        {
+          "t": "image",
+          "label": "POSTER",
+          "alt": {
+            "en": "The “USMU 2030” poster with these campus renders, on display in the university building",
+            "ru": "Плакат «УГМУ 2030» с рендерами кампуса в корпусе университета"
+          },
+          "ratio": "1280/960",
+          "src": "assets/gallery/usmu-campus/07.jpg",
+          "sm": "assets/gallery/usmu-campus/sm/07.jpg"
         }
       ]
     },

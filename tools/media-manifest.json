@@ -2457,6 +2457,17 @@
     "assets/gallery/usmu-campus/06.webp": {
       "src": "5f38a870dd4a5bdb"
     },
+    "assets/gallery/usmu-campus/07.avif": {
+      "src": "7ca364bf7f296797"
+    },
+    "assets/gallery/usmu-campus/07.jpg": {
+      "src": "7ca364bf7f296797",
+      "w": 1280,
+      "h": 960
+    },
+    "assets/gallery/usmu-campus/07.webp": {
+      "src": "7ca364bf7f296797"
+    },
     "assets/gallery/usmu-campus/sm/01.avif": {
       "src": "aa5bfea2c2756517"
     },
@@ -2510,6 +2521,15 @@
     },
     "assets/gallery/usmu-campus/sm/06.webp": {
       "src": "f25a6f8b8abdb625"
+    },
+    "assets/gallery/usmu-campus/sm/07.avif": {
+      "src": "15fb6f71d5413b42"
+    },
+    "assets/gallery/usmu-campus/sm/07.jpg": {
+      "src": "7ca364bf7f296797"
+    },
+    "assets/gallery/usmu-campus/sm/07.webp": {
+      "src": "15fb6f71d5413b42"
     },
     "assets/gallery/vfx-for-pr-agency-swipe/0001-0285.mp4": {
       "src": "b33ef62e7ecee6dd",
