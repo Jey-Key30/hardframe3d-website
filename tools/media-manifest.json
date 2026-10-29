@@ -42,15 +42,15 @@
       "w": 1600,
       "h": 900
     },
-    "assets/gallery/forsa/01.webp": {
-      "src": "9068ecb290de9ae6"
-    },
-    "assets/gallery/forsa/Test_full_transitions.mp4": {
+    "assets/gallery/forsa/01.mp4": {
       "src": "b18147a0bfaecde0",
       "w": 1920,
       "h": 1080
     },
-    "assets/gallery/forsa/poster/Test_full_transitions.jpg": {
+    "assets/gallery/forsa/01.webp": {
+      "src": "9068ecb290de9ae6"
+    },
+    "assets/gallery/forsa/poster/01.jpg": {
       "src": "b18147a0bfaecde0",
       "w": 1280,
       "h": 720
@@ -61,11 +61,11 @@
     "assets/gallery/forsa/sm/01.jpg": {
       "src": "9068ecb290de9ae6"
     },
+    "assets/gallery/forsa/sm/01.mp4": {
+      "src": "b18147a0bfaecde0"
+    },
     "assets/gallery/forsa/sm/01.webp": {
       "src": "cf623d01100526a2"
-    },
-    "assets/gallery/forsa/sm/Test_full_transitions.mp4": {
-      "src": "b18147a0bfaecde0"
     },
     "assets/gallery/futuristic-police-car/01.avif": {
       "src": "679fd9ee006951f6"

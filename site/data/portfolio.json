@@ -256,10 +256,11 @@
     },
     {
       "id": "forsa",
-      "title": "FORSA",
+      "title": "FORSA 3RS-35 Borehole Pump",
+      "title_ru": "Скважинный насос FORSA 3RS-35",
       "year": "2026",
       "role": "3D Artist",
-      "software": "Blender",
+      "software": "Blender · Photoshop · Illustrator",
       "tris": "—",
       "topic": "HARD-SURFACE",
       "tags": [
@@ -267,15 +268,39 @@
       ],
       "kindKey": "IMAGE",
       "layout": "render",
-      "slot": "FORSA",
+      "slot": "FORSA 3RS-35 BOREHOLE PUMP",
       "thumb": "assets/thumbs/forsa.jpg",
       "thumbRatio": "640/360",
       "artstationUrl": "https://www.artstation.com/artwork/x3EEAm",
-      "summary": "",
+      "summary": "A 3D presentation of the FORSA 3RS-35 borehole pump for a drilling company: a model of the pump, a presentation video and product renders. A commercial project done through the moskvin.pro creative production.\n\nThe video goes over the pump in close-ups — the body with the marking, the inlet screen, the threaded outlet — and ends on the shot of five pumps, the same as the main render.",
+      "summary_ru": "3D-презентация скважинного насоса FORSA 3RS-35 для буровой компании: модель насоса, презентационный ролик и рендеры. Коммерческий проект, сделанный через креативный продакшн moskvin.pro.\n\nРолик проходит по насосу крупными планами — корпус с маркировкой, сетка водозабора, выходной штуцер с резьбой — и заканчивается кадром с пятью насосами, как на главном рендере.",
+      "meta_title": "FORSA 3RS-35 Borehole Pump — 3D Presentation Video",
+      "meta_title_ru": "Скважинный насос FORSA 3RS-35 — 3D-ролик и рендеры",
+      "meta_description": "3D presentation of the FORSA 3RS-35 borehole pump for a drilling company: a model from photos and real samples, a 37-second video and renders in Blender Eevee.",
+      "meta_description_ru": "3D-презентация скважинного насоса FORSA 3RS-35 для буровой компании: модель по фото и образцам, ролик на 37 секунд и рендеры в Blender Eevee.",
+      "task": {
+        "en": "Build a model of the pump and use it for a short presentation video and a set of renders. The animated video was the main goal rather than the model itself, so the geometry is deliberately simple.",
+        "ru": "Сделать модель насоса и на её основе — короткий презентационный ролик и серию рендеров. Главным был анимационный ролик, а не сама модель, поэтому геометрия намеренно простая."
+      },
+      "what_i_did": {
+        "en": "Everything myself, in Blender:\n- modelling from photos and real samples of the pump;\n- materials, lighting and animation for the video;\n- rendering in Eevee;\n- the logo came from the client: I edited it in Photoshop and Illustrator and put it on the pump body.",
+        "ru": "Всё сам, в Blender:\n- моделирование по фотографиям и реальным образцам насоса;\n- материалы, свет и анимация для ролика;\n- рендер в Eevee;\n- логотип выдал заказчик: я доработал его в Photoshop и Illustrator и нанёс на корпус."
+      },
+      "result": {
+        "en": "The client accepted the work. The whole job took about a week, drafts and approvals included. The video runs 37 seconds in Full HD; with Eevee and a short video, the render itself took little time.",
+        "ru": "Заказчик принял работу. Весь проект занял около недели вместе с черновиками и согласованиями. Ролик — 37 секунд в Full HD; с Eevee и коротким хронометражем сам рендер занял немного времени."
+      },
+      "production": {
+        "name": "moskvin.pro"
+      },
       "media": [
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "Five FORSA 3RS-35 borehole pumps on a dark background",
+            "ru": "Пять скважинных насосов FORSA 3RS-35 на тёмном фоне"
+          },
           "ratio": "1600/900",
           "src": "assets/gallery/forsa/01.jpg",
           "sm": "assets/gallery/forsa/sm/01.jpg"
@@ -284,9 +309,9 @@
           "t": "video",
           "label": "VIDEO 01",
           "ratio": "1920/1080",
-          "src": "assets/gallery/forsa/Test_full_transitions.mp4",
-          "sm": "assets/gallery/forsa/sm/Test_full_transitions.mp4",
-          "poster": "assets/gallery/forsa/poster/Test_full_transitions.jpg"
+          "src": "assets/gallery/forsa/01.mp4",
+          "sm": "assets/gallery/forsa/sm/01.mp4",
+          "poster": "assets/gallery/forsa/poster/01.jpg"
         }
       ]
     },
