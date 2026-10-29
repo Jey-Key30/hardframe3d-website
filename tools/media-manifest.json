@@ -2386,15 +2386,15 @@
       "w": 510,
       "h": 905
     },
-    "assets/gallery/ummc-tennis-championship/01.webp": {
-      "src": "23b9e7226a5d1ac8"
-    },
-    "assets/gallery/ummc-tennis-championship/03.mp4": {
+    "assets/gallery/ummc-tennis-championship/01.mp4": {
       "src": "b9a2c4389db2464c",
       "w": 1080,
       "h": 1920
     },
-    "assets/gallery/ummc-tennis-championship/poster/03.jpg": {
+    "assets/gallery/ummc-tennis-championship/01.webp": {
+      "src": "23b9e7226a5d1ac8"
+    },
+    "assets/gallery/ummc-tennis-championship/poster/01.jpg": {
       "src": "b9a2c4389db2464c",
       "w": 720,
       "h": 1280
@@ -2405,11 +2405,11 @@
     "assets/gallery/ummc-tennis-championship/sm/01.jpg": {
       "src": "23b9e7226a5d1ac8"
     },
+    "assets/gallery/ummc-tennis-championship/sm/01.mp4": {
+      "src": "b9a2c4389db2464c"
+    },
     "assets/gallery/ummc-tennis-championship/sm/01.webp": {
       "src": "2d954c240f993c60"
-    },
-    "assets/gallery/ummc-tennis-championship/sm/03.mp4": {
-      "src": "b9a2c4389db2464c"
     },
     "assets/gallery/usmu-campus/01.avif": {
       "src": "53d837024f00fca5"

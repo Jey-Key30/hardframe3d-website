@@ -714,9 +714,10 @@
     {
       "id": "ummc-tennis-championship",
       "title": "UMMC Tennis Championship",
+      "title_ru": "Чемпионат УГМК по настольному теннису",
       "year": "2025",
       "role": "VFX Artist",
-      "software": "Blender",
+      "software": "Blender · After Effects · DaVinci Fusion",
       "tris": "—",
       "topic": "VFX / SIM",
       "tags": [
@@ -728,16 +729,35 @@
       "thumb": "assets/thumbs/ummc-tennis-championship.jpg",
       "thumbRatio": "507/900",
       "artstationUrl": "https://www.artstation.com/artwork/K35keW",
-      "summary": "UMMC Tennis Championship Vol.1. Forecasters warn: precipitation in the form of ping-pong balls is possible! Video for UMMC Tennis Championship.",
+      "summary": "Forecasters warn: precipitation in the form of ping-pong balls is possible!\n\nA FOOH-style CGI video for the team championship of the Russian Table Tennis Federation (FNTR) hosted by UMMC. A commercial project done through the moskvin.pro creative production, for the social media of the UMMC table tennis community.\n\nIn the video, giant ping-pong balls with the championship logo lie scattered across the car park by the UMMC Palace of Sports, and a truck brings in a giant paddle that slides off onto the asphalt.",
+      "summary_ru": "Синоптики предупреждают: возможны осадки в виде мячиков для пинг-понга!\n\nCGI-ролик в формате FOOH для командного чемпионата ФНТР по настольному теннису, который проводила УГМК. Коммерческий проект, сделанный через креативный продакшн moskvin.pro, — для соцсетей теннисного сообщества УГМК.\n\nВ ролике на парковке у Дворца спорта УГМК разбросаны гигантские мячи для пинг-понга с логотипом чемпионата, а грузовик привозит огромную ракетку, и она съезжает на асфальт.",
+      "meta_title": "UMMC Tennis Championship — CGI Video",
+      "meta_title_ru": "Чемпионат УГМК по настольному теннису — CGI-ролик",
+      "meta_description": "FOOH-style CGI video for the UMMC table tennis championship: giant ping-pong balls and a paddle in real footage. Tracking, rigid body sim, Blender Cycles.",
+      "meta_description_ru": "CGI-ролик в формате FOOH для чемпионата УГМК по настольному теннису: гигантские мячи и ракетка в реальной съёмке. Трекинг, rigid body, Blender Cycles.",
+      "task": {
+        "en": "The brief was a series of VFX videos for the championship; this one is, to my mind, the best of them. The required element was ping-pong balls carrying the event's logos, so the series took the FOOH format: oversized objects in real city footage.",
+        "ru": "ТЗ — серия VFX-роликов для чемпионата; этот, на мой взгляд, лучший из них. Обязательное условие — мячики для пинг-понга с логотипами мероприятия, так что серия получилась в формате FOOH: огромные предметы в реальной городской съёмке."
+      },
+      "what_i_did": {
+        "en": "Tracking, animation, simulation and rendering:\n- the footage was shot by the moskvin.pro studio at the UMMC Palace of Sports in Verkhnyaya Pyshma; I tracked the camera in After Effects;\n- I made the ping-pong balls with the event logos and drove them with a rigid body simulation in Blender;\n- the vehicle models and the paddle are Sketchfab assets, the animation is mine;\n- rendering in Cycles, colour grading in DaVinci Fusion.",
+        "ru": "Трекинг, анимация, симуляция и рендер:\n- съёмку у Дворца спорта УГМК в Верхней Пышме провела студия moskvin.pro, трекинг камеры я сделал в After Effects;\n- мячи с логотипами мероприятия — мои, движение — rigid body симуляция в Blender;\n- модели машин и ракетка — ассеты со Sketchfab, анимация моя;\n- рендер в Cycles, цветокоррекция в DaVinci Fusion."
+      },
+      "result": {
+        "en": "The client accepted the video, and it went out on the social media of the UMMC table tennis community on VK. 21 seconds, vertical 1080×1920 at 30 fps, made on a short turnaround.",
+        "ru": "Заказчик принял ролик, его опубликовали в соцсетях теннисного сообщества УГМК во ВКонтакте. 21 секунда, вертикаль 1080×1920, 30 кадров/с; сделан в сжатые сроки."
+      },
       "production": {
         "name": "moskvin.pro"
       },
-      "task": "TODO(Кирилл): задача от продакшна",
-      "result": "TODO(Кирилл): результат",
       "media": [
         {
           "t": "image",
           "label": "RENDER 01",
+          "alt": {
+            "en": "A truck carrying a giant table tennis paddle among huge ping-pong balls in a car park",
+            "ru": "Грузовик с гигантской ракеткой для настольного тенниса среди огромных мячей на парковке"
+          },
           "ratio": "510/905",
           "src": "assets/gallery/ummc-tennis-championship/01.jpg",
           "sm": "assets/gallery/ummc-tennis-championship/sm/01.jpg"
@@ -751,12 +771,11 @@
           "t": "video",
           "label": "VIDEO 01",
           "ratio": "1080/1920",
-          "src": "assets/gallery/ummc-tennis-championship/03.mp4",
-          "sm": "assets/gallery/ummc-tennis-championship/sm/03.mp4",
-          "poster": "assets/gallery/ummc-tennis-championship/poster/03.jpg"
+          "src": "assets/gallery/ummc-tennis-championship/01.mp4",
+          "sm": "assets/gallery/ummc-tennis-championship/sm/01.mp4",
+          "poster": "assets/gallery/ummc-tennis-championship/poster/01.jpg"
         }
-      ],
-      "summary_ru": "UMMC Tennis Championship Vol.1. Синоптики предупреждают: возможны осадки в виде мячиков для пинг-понга! Ролик для теннисного турнира УГМК."
+      ]
     },
     {
       "id": "robot-chappie",
