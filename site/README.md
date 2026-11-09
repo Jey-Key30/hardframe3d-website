@@ -30,12 +30,10 @@ Locally the site uses hash routes (`#/project/<id>`, `#/privacy`).
 1. Repo → Settings → Pages → Build and deployment → Source: **GitHub Actions**.
    On a free account the repository must be public.
 2. Push to `main`. The "Deploy site" workflow runs `tools/seo.mjs` and publishes.
-   Progress: Actions tab. The site appears at `https://jey-key30.github.io/render-vision-website/`.
-3. Custom domain later: buy it, add it in Settings → Pages → Custom domain, and at the
-   registrar create a `CNAME` record `www → jey-key30.github.io` (or four `A` records for the
-   bare domain: 185.199.108.153, .109.153, .110.153, .111.153). Tick "Enforce HTTPS".
-   The next deploy picks up the domain automatically — canonical links, sitemap and
-   link previews switch to it without code changes.
+   Progress: Actions tab. The site is published at `https://hardframe3d.com/`.
+3. The custom domain `hardframe3d.com` is already configured in GitHub Pages.
+   Keep its Cloudflare DNS records in DNS-only mode and Enforce HTTPS enabled.
+   Canonical links, sitemap and link previews use this domain; see `PROJECT.md`.
 
 ## SEO pages (tools/seo.mjs)
 
