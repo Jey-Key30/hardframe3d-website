@@ -1,4 +1,4 @@
-repo: Jey-Key30/render-vision-website
+repo: Jey-Key30/hardframe3d-website
 branch: main
 
 ## Last sync

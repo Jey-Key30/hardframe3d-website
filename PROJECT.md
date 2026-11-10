@@ -25,7 +25,7 @@
     .githooks/pre-commit         не даёт закоммитить непережатые медиа
     .github/workflows/deploy.yml публикация на GitHub Pages при push в main
 
-Репозиторий: `Jey-Key30/render-vision-website`, ветка `main`.
+Репозиторий: `Jey-Key30/hardframe3d-website`, ветка `main`.
 
 ## Как работает контент
 
