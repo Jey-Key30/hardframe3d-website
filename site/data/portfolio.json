@@ -620,7 +620,7 @@
       "slot": "TRON LIGHTCYCLE · REWORK",
       "thumb": "assets/thumbs/tron-lightcycle.jpg",
       "thumbRatio": "506/900",
-      "summary": "REWORK is a new vertical video generated with AI from my earlier Tron-inspired VFX study, then selected and edited for a more vivid, cinematic result. The goal of this version is the visual experience.\n\nThe original was a technical exercise: I tracked live-action footage in After Effects, transferred the camera to Blender, adjusted a ready-made Sketchfab lightcycle model, and rendered it into the shot. The new cover presents the REWORK; the five other stills were enhanced with Nano Banana. The original video remains available separately on YouTube.",
+      "summary": "REWORK is a new vertical video generated with AI from my earlier Tron-inspired VFX study, then selected and edited for a more vivid, cinematic result. The goal of this version is the visual experience.\n\nThe original was a technical exercise: I tracked live-action footage in After Effects, transferred the camera to Blender, adjusted a ready-made Sketchfab lightcycle model, and rendered it into the shot.",
       "meta_title": "Tron Lightcycle REWORK — AI Video from a VFX Study",
       "meta_title_ru": "Светоцикл из «Трона» — REWORK",
       "meta_description": "A new AI-generated and edited Tron Lightcycle video based on an earlier live-action VFX study, with the original version preserved separately.",
@@ -630,12 +630,12 @@
         "ru": "Переосмыслить прежнюю техническую VFX-работу как короткий зрелищный ролик. В REWORK главным стали картинка и атмосфера, а не демонстрация навыков трекинга и композитинга."
       },
       "what_i_did": {
-        "en": "For the original VFX shot, I tracked the live-action camera in After Effects, transferred it to Blender, slightly modified a ready-made Sketchfab lightcycle, and set up the lighting and CG render.\n\nFor the REWORK, I used the earlier video as the source for a substantially new AI-generated sequence and edited the result into a finished short video. The five earlier still previews were enhanced with Nano Banana.",
-        "ru": "Для исходной VFX-версии я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab, настроил свет и выполнил рендер.\n\nДля REWORK использовал прежний ролик как основу для практически нового видеоряда, созданного с помощью генеративного ИИ, и смонтировал результат в законченный короткий ролик. Пять прежних статичных превью обработаны в Nano Banana."
+        "en": "For the original VFX shot, I tracked the live-action camera in After Effects, transferred it to Blender, slightly modified a ready-made Sketchfab lightcycle, and set up the lighting and CG render.\n\nFor the REWORK, I used the earlier video as the source for a substantially new AI-generated sequence and edited the result into a finished short video.",
+        "ru": "Для исходной VFX-версии я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab, настроил свет и выполнил рендер.\n\nДля REWORK использовал прежний ролик как основу для практически нового видеоряда, созданного с помощью генеративного ИИ, и смонтировал результат в законченный короткий ролик."
       },
       "result": {
-        "en": "A new 15-second vertical REWORK video with the cover as its first frame. The original VFX version is retained as a separate YouTube video, so both stages of the project can be viewed. The gallery also contains the new cover and five earlier stills.",
-        "ru": "Новый вертикальный REWORK длительностью около 15 секунд, первый кадр которого — новая обложка. Исходная VFX-версия сохранена отдельным видео на YouTube — можно посмотреть оба этапа работы. В галерее также есть новая обложка и пять прежних изображений."
+        "en": "The finished REWORK is a 15-second vertical video. The gallery features six frames from the final edit and a link to the short on YouTube.",
+        "ru": "REWORK — вертикальный ролик длительностью около 15 секунд. В галерее собраны шесть кадров из финального монтажа и ссылка на ролик на YouTube."
       },
       "ai_used": {
         "en": "The REWORK video is substantially new footage generated with AI from the original VFX video and then edited. Nano Banana was used to enhance five earlier still previews. The original video combined real footage with a Blender render.",
@@ -652,77 +652,78 @@
         },
         {
           "t": "image",
-          "label": "REWORK COVER",
+          "label": "REWORK 01",
           "ratio": "900/1600",
           "src": "assets/gallery/tron-lightcycle/01.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/01.jpg",
           "alt": {
-            "en": "Tron-inspired lightcycle in a rainy night scene with red illuminated wheels and Tron Ares title",
-            "ru": "Светоцикл в дождливой ночной сцене с красными светящимися колёсами и надписью Tron Ares"
+            "en": "Black lightcycle on wet paving, seen from the front with its red wheel rim reflected below",
+            "ru": "Чёрный светоцикл спереди, красный обод отражается в мокрой брусчатке"
           }
         },
         {
           "t": "image",
-          "label": "RENDER 02",
-          "ratio": "893/1600",
+          "label": "REWORK 02",
+          "ratio": "900/1600",
           "src": "assets/gallery/tron-lightcycle/02.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/02.jpg",
           "alt": {
-            "en": "Front three-quarter view of a black lightcycle with red glowing rims on wet paving",
-            "ru": "Чёрный светоцикл в три четверти спереди: красные светящиеся ободы на мокрой мостовой"
+            "en": "Close-up of the white headlight strip on the rounded black fairing",
+            "ru": "Ряд белых фар крупным планом на округлом чёрном обтекателе"
           }
         },
         {
           "t": "image",
-          "label": "RENDER 03",
-          "ratio": "893/1600",
+          "label": "REWORK 03",
+          "ratio": "900/1600",
           "src": "assets/gallery/tron-lightcycle/03.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/03.jpg",
           "alt": {
-            "en": "Close-up of the lightcycle's seat, side panel and red glowing wheel rim",
-            "ru": "Крупный план сиденья, боковой панели и красного светящегося обода светоцикла"
+            "en": "Rain on the saddle above the red illuminated side panel",
+            "ru": "Капли дождя на седле над красной светящейся боковой панелью"
           }
         },
         {
           "t": "image",
-          "label": "RENDER 04",
-          "ratio": "893/1600",
+          "label": "REWORK 04",
+          "ratio": "900/1600",
           "src": "assets/gallery/tron-lightcycle/04.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/04.jpg",
           "alt": {
-            "en": "Lightcycle viewed from above at the front, with white headlights and red reflections on the paving",
-            "ru": "Светоцикл сверху со стороны переднего колеса: белые фары и красные отражения на мостовой"
+            "en": "Front wheel and saddle seen at an angle, with red light along the frame",
+            "ru": "Переднее колесо и седло под углом, вдоль рамы тянется красная подсветка"
           }
         },
         {
           "t": "image",
-          "label": "RENDER 05",
-          "ratio": "893/1600",
+          "label": "REWORK 05",
+          "ratio": "900/1600",
           "src": "assets/gallery/tron-lightcycle/05.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/05.jpg",
           "alt": {
-            "en": "Lightcycle at a side angle, showing the front wheel and red illuminated body details",
-            "ru": "Светоцикл под углом сбоку: переднее колесо и красные светящиеся детали корпуса"
+            "en": "Rear wheel in profile with a bright red rim reflected on the wet street",
+            "ru": "Заднее колесо в профиль, яркий красный обод отражается на мокрой мостовой"
           }
         },
         {
           "t": "image",
-          "label": "RENDER 06",
-          "ratio": "893/1600",
+          "label": "REWORK 06",
+          "ratio": "900/1600",
           "src": "assets/gallery/tron-lightcycle/06.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/06.jpg",
           "alt": {
-            "en": "Rear wheel and body of the lightcycle with red light reflected on wet paving",
-            "ru": "Заднее колесо и корпус светоцикла с красными отражениями на мокрой мостовой"
+            "en": "Overhead view along the saddle toward the wet paving",
+            "ru": "Вид сверху вдоль седла на мокрую брусчатку"
           }
         },
         {
           "t": "youtube",
-          "videoId": "skF-0hvYPjg",
-          "label": "ORIGINAL VFX VIDEO · YOUTUBE"
+          "videoId": "PZq2f05Aoj8",
+          "label": "YOUTUBE SHORTS",
+          "url": "https://youtube.com/shorts/PZq2f05Aoj8?feature=share"
         }
       ],
-      "summary_ru": "REWORK — новый вертикальный ролик, созданный с помощью генеративного ИИ на основе моей прежней VFX-работы и затем смонтированный ради более яркой, кинематографичной картинки. Цель этой версии — визуальное впечатление.\n\nИсходный ролик был техническим упражнением: я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab и вписал рендер в кадр. Новая обложка представляет REWORK; остальные пять изображений обработаны в Nano Banana. Исходное видео осталось отдельно на YouTube."
+      "summary_ru": "REWORK — новый вертикальный ролик, созданный с помощью генеративного ИИ на основе моей прежней VFX-работы и затем смонтированный ради более яркой, кинематографичной картинки. Цель этой версии — визуальное впечатление.\n\nИсходный ролик был техническим упражнением: я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab и вписал рендер в кадр."
     },
     {
       "id": "vfx-for-pr-agency-swipe",

@@ -1241,7 +1241,7 @@ function ytPoster(id, img) {
 /* YouTube is never embedded (bot check blocks it) — poster + link out */
 function ytLink(m) {
   const a = el("a", "yt", "<div class='play'>▶</div><div class='tag'>" + (m.label || "VIDEO") + " · " + L("p.yt") + "</div>");
-  a.href = m.videoId ? "https://www.youtube.com/watch?v=" + m.videoId : m.url; a.target = "_blank"; a.rel = "noopener";
+  a.href = m.url || "https://www.youtube.com/watch?v=" + m.videoId; a.target = "_blank"; a.rel = "noopener";
   return a;
 }
 function heroMedia(box, m, mode, title) {
