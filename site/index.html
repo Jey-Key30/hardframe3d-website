@@ -287,10 +287,20 @@ footer .reach a{font-size:19px}
 .case u{display:block;margin-bottom:.4em;text-decoration:none;font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--faint)}
 .case p,.case ul{margin:0 0 .6em}.case>div>:last-child{margin-bottom:0}
 .todo{outline:1px dashed var(--red);outline-offset:4px;color:var(--red)}
-.vhead{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(32px,5vw,56px);padding:40px var(--pad);align-items:end;border-bottom:1px solid var(--line)}
+.vhead{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(32px,5vw,56px);padding:40px var(--pad);align-items:start;border-bottom:1px solid var(--line)}
 .vplayer{position:relative;height:min(80vh,760px);aspect-ratio:9/16;background:#070707;border:1px solid var(--edge);overflow:hidden}
 .vplayer img,.vplayer>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.vinfo{display:flex;flex-direction:column;gap:24px}
+.vinfo{align-self:stretch;display:flex;flex-direction:column;gap:24px}
+.vinfo>.facts{margin-top:auto}
+.vdesc{display:flex;flex-direction:column;align-items:flex-start}
+.vdesc:not(.expanded){contain:size;flex:1 0 8rem}
+.vdesc-preview{width:100%;min-height:0;overflow:clip}
+.vdesc.truncated:not(.expanded) .vdesc-preview{mask-image:linear-gradient(to bottom,#000 calc(100% - 3.3em),transparent)}
+.vdesc-toggle{flex:none;display:inline-flex;align-items:center;gap:9px;padding:10px 0;color:var(--ink);font:13px var(--mono)}
+.vdesc-toggle[hidden]{display:none}
+.vdesc-toggle::after{content:"";width:6px;height:6px;border:solid var(--red);border-width:0 1px 1px 0;transform:rotate(45deg)}
+.expanded>.vdesc-toggle::after{transform:rotate(225deg)}
+.vdesc-toggle:hover{color:var(--red)}
 .hvideo{padding:32px var(--pad) 0}
 .hvideo .box{position:relative;aspect-ratio:16/9;background:#070707;border:1px solid var(--edge);overflow:hidden}
 .hvideo .box img,.hvideo .box>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -338,6 +348,7 @@ footer .reach a{font-size:19px}
   .stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .info,.info.split,.vhead{grid-template-columns:1fr}
   .vplayer{height:auto;width:100%;max-width:420px}
+  .vdesc:not(.expanded){contain:none;flex:none;max-height:14rem}
   .exp-row{grid-template-columns:1fr;gap:12px}
   form{padding:24px}
 }
@@ -586,6 +597,7 @@ const I18N = {
     "p.back": "← BACK TO WORK", "p.as": "VIEW ON ARTSTATION ↗", "p.year": "YEAR", "p.role": "ROLE", "p.software": "SOFTWARE", "p.tris": "TRIS",
     "p.production": "PRODUCTION", "p.ai": "AI", "p.task": "TASK", "p.did": "WHAT I DID", "p.result": "RESULT",
     "p.gallery": "GALLERY", "p.item": "ITEM", "p.items": "ITEMS", "p.next": "NEXT PROJECTS", "p.moreV": "MORE VERTICAL VFX",
+    "p.showDesc": "Read full description", "p.hideDesc": "Hide description",
     "p.yt": "WATCH ON YOUTUBE ↗", "p.close": "CLOSE ✕",
     "st.soon": "IN DEVELOPMENT", "st.reworkNote": "The work is being redone: renders below are the previous version.",
     "nf.h": "Project not found", "nf.p": "This link points to a project that doesn't exist or has been removed.", "nf.back": "← ALL WORK",
@@ -626,6 +638,7 @@ const I18N = {
     "p.back": "← К РАБОТАМ", "p.as": "ОТКРЫТЬ НА ARTSTATION ↗", "p.year": "ГОД", "p.role": "РОЛЬ", "p.software": "СОФТ", "p.tris": "ПОЛИГОНЫ",
     "p.production": "ПРОДАКШН", "p.ai": "ИИ", "p.task": "ЗАДАЧА", "p.did": "ЧТО СДЕЛАЛ", "p.result": "РЕЗУЛЬТАТ",
     "p.gallery": "ГАЛЕРЕЯ", "p.item": "", "p.items": "", "p.next": "ДРУГИЕ РАБОТЫ", "p.moreV": "ЕЩЁ ВЕРТИКАЛЬНЫЕ VFX",
+    "p.showDesc": "Читать полностью", "p.hideDesc": "Свернуть описание",
     "p.yt": "СМОТРЕТЬ НА YOUTUBE ↗", "p.close": "ЗАКРЫТЬ ✕",
     "st.soon": "В РАЗРАБОТКЕ", "st.reworkNote": "Работа переделывается: ниже — прошлая версия рендеров.",
     "nf.h": "Работа не найдена", "nf.p": "Ссылка ведёт на работу, которой нет или которую убрали.", "nf.back": "← ВСЕ РАБОТЫ",
@@ -1323,6 +1336,35 @@ function gallery(p, items, label, asProjects) {
   return g;
 }
 
+function descriptionPreview(summary) {
+  const box = el("div", "vdesc"), preview = el("div", "vdesc-preview", summary);
+  const text = preview.firstElementChild, button = el("button", "vdesc-toggle", L("p.showDesc"));
+  preview.id = "project-description";
+  button.type = "button";
+  button.hidden = true;
+  button.setAttribute("aria-controls", preview.id);
+  button.setAttribute("aria-expanded", "false");
+  box.append(preview, button);
+  function measure() {
+    if (box.classList.contains("expanded")) return;
+    const clipped = text.scrollHeight > box.clientHeight + 1;
+    box.classList.toggle("truncated", clipped);
+    button.hidden = !clipped;
+  }
+  function expand(open) {
+    box.classList.toggle("expanded", open);
+    button.setAttribute("aria-expanded", String(open));
+    button.textContent = L(open ? "p.hideDesc" : "p.showDesc");
+    if (!open) measure();
+  }
+  button.addEventListener("click", () => expand(!box.classList.contains("expanded")));
+  preview.addEventListener("focusin", () => { if (!button.hidden) expand(true); });
+  const observer = new ResizeObserver(measure);
+  observer.observe(box);
+  observer.observe(text);
+  queueMicrotask(measure);
+  return box;
+}
 function renderProject(p) {
   const root = $("#project");
   root.innerHTML = "";
@@ -1355,7 +1397,10 @@ function renderProject(p) {
     const h = el("div", "vhead"), pl = el("div", "vplayer");
     heroMedia(pl, pick, mode, name);
     if (ytOver) { const im = pl.querySelector("img"); if (im) im.style.filter = "brightness(.6)"; pl.appendChild(ytLink(ytOver)); }
-    h.append(pl, el("div", "vinfo", eyebrow + title + summary + fx));
+    const info = el("div", "vinfo", eyebrow + title);
+    if (summary) info.appendChild(descriptionPreview(summary));
+    info.insertAdjacentHTML("beforeend", fx);
+    h.append(pl, info);
     root.appendChild(h);
   } else if (mode === "video") {
     root.appendChild(crumbs("crumbs"));
