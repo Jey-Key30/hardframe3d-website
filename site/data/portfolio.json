@@ -605,11 +605,11 @@
     },
     {
       "id": "tron-lightcycle",
-      "title": "Tron Lightcycle",
-      "title_ru": "Светоцикл из «Трона»",
+      "title": "Tron Lightcycle — REWORK",
+      "title_ru": "Светоцикл из «Трона» — REWORK",
       "year": "2026",
-      "role": "VFX Artist",
-      "software": "Blender · Nano Banana · After Effects",
+      "role": "VFX Artist · AI Video Editor",
+      "software": "After Effects · Blender · Nano Banana · Generative AI",
       "tris": "—",
       "topic": "VFX / SIM",
       "tags": [
@@ -617,41 +617,48 @@
       ],
       "kindKey": "VIDEO",
       "layout": "vertical",
-      "slot": "TRON LIGHTCYCLE",
+      "slot": "TRON LIGHTCYCLE · REWORK",
       "thumb": "assets/thumbs/tron-lightcycle.jpg",
-      "thumbRatio": "502/900",
-      "artstationUrl": "https://www.artstation.com/artwork/a0lwqX",
-      "summary": "A personal VFX study inspired by Tron: Ares. I placed a 3D lightcycle into live-action footage to practise camera tracking, matching the lighting and rendering a CG object for a filmed scene. The surroundings come from the video, while the lightcycle is a ready-made Sketchfab model that I modified slightly.\n\nI set myself a short production window and focused on taking the shot through the VFX workflow. The six still images show different angles of the lightcycle, with the preview images enhanced in Nano Banana.",
-      "meta_title": "Tron Lightcycle — VFX in Live-Action Footage",
-      "meta_title_ru": "Светоцикл из «Трона» — VFX в реальной съёмке",
-      "meta_description": "Tron-inspired VFX study: a modified Sketchfab lightcycle in live-action footage, camera tracking in After Effects, lighting and rendering in Blender.",
-      "meta_description_ru": "Учебный VFX-ролик по мотивам «Трона»: светоцикл со Sketchfab в реальной съёмке, трекинг камеры в After Effects, настройка света и рендер в Blender.",
+      "thumbRatio": "506/900",
+      "summary": "REWORK is a new vertical video generated with AI from my earlier Tron-inspired VFX study, then selected and edited for a more vivid, cinematic result. The goal of this version is the visual experience.\n\nThe original was a technical exercise: I tracked live-action footage in After Effects, transferred the camera to Blender, adjusted a ready-made Sketchfab lightcycle model, and rendered it into the shot. The new cover presents the REWORK; the five other stills were enhanced with Nano Banana. The original video remains available separately on YouTube.",
+      "meta_title": "Tron Lightcycle REWORK — AI Video from a VFX Study",
+      "meta_title_ru": "Светоцикл из «Трона» — REWORK",
+      "meta_description": "A new AI-generated and edited Tron Lightcycle video based on an earlier live-action VFX study, with the original version preserved separately.",
+      "meta_description_ru": "Новый сгенерированный и смонтированный ролик со светоциклом на основе прежней VFX-работы. Исходная версия сохранена отдельно.",
       "task": {
-        "en": "Practise creating a VFX shot in a few days and try techniques for integrating a CG object into filmed footage. The focus was on camera tracking, transferring the camera between applications and lighting the model within the shot.",
-        "ru": "Потренироваться в создании VFX-ролика за несколько дней и попробовать приёмы интеграции CG-объекта в снятое видео. Основной акцент сделал на трекинге, переносе камеры между программами и настройке освещения модели в кадре."
+        "en": "Turn the earlier technical VFX study into a visually striking short video. In the REWORK, the priority was the image and atmosphere rather than a demonstration of camera tracking or compositing skills.",
+        "ru": "Переосмыслить прежнюю техническую VFX-работу как короткий зрелищный ролик. В REWORK главным стали картинка и атмосфера, а не демонстрация навыков трекинга и композитинга."
       },
       "what_i_did": {
-        "en": "My part of the work:\n- tracked the camera in After Effects using the live-action footage;\n- exported the camera motion to Blender;\n- made small changes to the ready-made lightcycle model;\n- set up the lighting and rendered the CG in Blender.\n\nI used the footage as the environment for the shot. Within the short production window, I prioritised the main VFX workflow and left detailed effects work for a later update.",
-        "ru": "Моя часть работы:\n- отследил движение камеры по реальной съёмке в After Effects;\n- экспортировал движение камеры в Blender;\n- немного изменил готовую модель светоцикла;\n- настроил свет и выполнил рендер CG в Blender.\n\nОкружением для сцены служит исходное видео. В отведённый срок сосредоточился на основном VFX-процессе, а детальную настройку эффектов оставил для следующего обновления."
+        "en": "For the original VFX shot, I tracked the live-action camera in After Effects, transferred it to Blender, slightly modified a ready-made Sketchfab lightcycle, and set up the lighting and CG render.\n\nFor the REWORK, I used the earlier video as the source for a substantially new AI-generated sequence and edited the result into a finished short video. The five earlier still previews were enhanced with Nano Banana.",
+        "ru": "Для исходной VFX-версии я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab, настроил свет и выполнил рендер.\n\nДля REWORK использовал прежний ролик как основу для практически нового видеоряда, созданного с помощью генеративного ИИ, и смонтировал результат в законченный короткий ролик. Пять прежних статичных превью обработаны в Nano Banana."
       },
       "result": {
-        "en": "A vertical video combining live-action footage and a CG lightcycle, plus six still views. The work took several days; I no longer remember the exact duration.\n\nAs part of the portfolio update, I plan to process the video in Higgsfield, aiming to bring its look closer to the enhanced preview images. This is a planned update, not the version currently shown on the page.",
-        "ru": "Вертикальный ролик с CG-светоциклом в реальной съёмке и шесть изображений с разных ракурсов. Работа заняла несколько дней; точный срок уже не помню.\n\nВ рамках обновления портфолио планирую обработать видео в Higgsfield, чтобы приблизить его визуальный результат к обработанным превью. Это следующий этап работы; на странице пока представлена текущая версия ролика."
+        "en": "A new 15-second vertical REWORK video with the cover as its first frame. The original VFX version is retained as a separate YouTube video, so both stages of the project can be viewed. The gallery also contains the new cover and five earlier stills.",
+        "ru": "Новый вертикальный REWORK длительностью около 15 секунд, первый кадр которого — новая обложка. Исходная VFX-версия сохранена отдельным видео на YouTube — можно посмотреть оба этапа работы. В галерее также есть новая обложка и пять прежних изображений."
       },
       "ai_used": {
-        "en": "Nano Banana was used only for the preview images. The current video combines real footage with a Blender render; Higgsfield processing is planned for a future update.",
-        "ru": "Nano Banana использовался только для превью. Текущий ролик объединяет реальную съёмку и рендер из Blender; обработка видео в Higgsfield запланирована на следующий этап."
+        "en": "The REWORK video is substantially new footage generated with AI from the original VFX video and then edited. Nano Banana was used to enhance five earlier still previews. The original video combined real footage with a Blender render.",
+        "ru": "Видеоряд REWORK практически полностью создан генеративным ИИ на основе исходного VFX-ролика и затем смонтирован. Пять прежних статичных превью обработаны в Nano Banana. Исходное видео объединяло реальную съёмку и рендер из Blender."
       },
       "media": [
         {
+          "t": "video",
+          "label": "REWORK VIDEO",
+          "ratio": "1080/1920",
+          "src": "assets/gallery/tron-lightcycle/01.mp4",
+          "sm": "assets/gallery/tron-lightcycle/sm/01.mp4",
+          "poster": "assets/gallery/tron-lightcycle/poster/01.jpg"
+        },
+        {
           "t": "image",
-          "label": "RENDER 01",
-          "ratio": "893/1600",
+          "label": "REWORK COVER",
+          "ratio": "900/1600",
           "src": "assets/gallery/tron-lightcycle/01.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/01.jpg",
           "alt": {
-            "en": "Tron lightcycle preview with red glowing wheel rims and the title Tron Ares",
-            "ru": "Превью светоцикла с красными светящимися ободами и надписью Tron Ares"
+            "en": "Tron-inspired lightcycle in a rainy night scene with red illuminated wheels and Tron Ares title",
+            "ru": "Светоцикл в дождливой ночной сцене с красными светящимися колёсами и надписью Tron Ares"
           }
         },
         {
@@ -712,18 +719,10 @@
         {
           "t": "youtube",
           "videoId": "skF-0hvYPjg",
-          "label": "YOUTUBE SHORTS"
-        },
-        {
-          "t": "video",
-          "label": "VIDEO 01",
-          "ratio": "1080/1920",
-          "src": "assets/gallery/tron-lightcycle/01.mp4",
-          "sm": "assets/gallery/tron-lightcycle/sm/01.mp4",
-          "poster": "assets/gallery/tron-lightcycle/poster/01.jpg"
+          "label": "ORIGINAL VFX VIDEO · YOUTUBE"
         }
       ],
-      "summary_ru": "Личная VFX-работа по мотивам фильма «Трон: Арес». Я добавил 3D-светоцикл в реальную съёмку, чтобы потренировать трекинг камеры, подгонку освещения и рендер CG-объекта для снятой сцены. Окружение взято из видео, а светоцикл — готовая модель со Sketchfab, которую я немного изменил.\n\nПоставил себе короткий срок и сосредоточился на прохождении VFX-пайплайна. Шесть изображений в галерее показывают светоцикл с разных ракурсов; для обработки превью использовал Nano Banana."
+      "summary_ru": "REWORK — новый вертикальный ролик, созданный с помощью генеративного ИИ на основе моей прежней VFX-работы и затем смонтированный ради более яркой, кинематографичной картинки. Цель этой версии — визуальное впечатление.\n\nИсходный ролик был техническим упражнением: я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab и вписал рендер в кадр. Новая обложка представляет REWORK; остальные пять изображений обработаны в Nano Banana. Исходное видео осталось отдельно на YouTube."
     },
     {
       "id": "vfx-for-pr-agency-swipe",
