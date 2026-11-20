@@ -608,8 +608,8 @@
       "title": "Tron Lightcycle — REWORK",
       "title_ru": "Светоцикл из «Трона» — REWORK",
       "year": "2026",
-      "role": "VFX Artist · AI Video Editor",
-      "software": "After Effects · Blender · Nano Banana · Generative AI",
+      "role": "AI Video Editor",
+      "software": "Generative AI",
       "tris": "—",
       "topic": "VFX / SIM",
       "tags": [
@@ -620,26 +620,26 @@
       "slot": "TRON LIGHTCYCLE · REWORK",
       "thumb": "assets/thumbs/tron-lightcycle.jpg",
       "thumbRatio": "506/900",
-      "summary": "REWORK is a new vertical video generated with AI from my earlier Tron-inspired VFX study, then selected and edited for a more vivid, cinematic result. The goal of this version is the visual experience.\n\nThe original was a technical exercise: I tracked live-action footage in After Effects, transferred the camera to Blender, adjusted a ready-made Sketchfab lightcycle model, and rendered it into the shot.",
-      "meta_title": "Tron Lightcycle REWORK — AI Video from a VFX Study",
+      "summary": "Red light from the wheels reflects on the wet pavement. I based this short fan film inspired by Tron: Ares on my earlier VFX study.",
+      "meta_title": "Tron Lightcycle REWORK — Short Fan Film",
       "meta_title_ru": "Светоцикл из «Трона» — REWORK",
-      "meta_description": "A new AI-generated and edited Tron Lightcycle video based on an earlier live-action VFX study, with the original version preserved separately.",
-      "meta_description_ru": "Новый сгенерированный и смонтированный ролик со светоциклом на основе прежней VFX-работы. Исходная версия сохранена отдельно.",
+      "meta_description": "A red lightcycle on wet pavement in a 15-second vertical fan film inspired by Tron: Ares. Watch the final edit and explore six frames from the film.",
+      "meta_description_ru": "Красный светоцикл на мокрой брусчатке в коротком фан-ролике по мотивам «Трон: Арес». В галерее — вертикальное видео и шесть кадров из финального монтажа.",
       "task": {
-        "en": "Turn the earlier technical VFX study into a visually striking short video. In the REWORK, the priority was the image and atmosphere rather than a demonstration of camera tracking or compositing skills.",
-        "ru": "Переосмыслить прежнюю техническую VFX-работу как короткий зрелищный ролик. В REWORK главным стали картинка и атмосфера, а не демонстрация навыков трекинга и композитинга."
+        "en": "Show the lightcycle through the red glow on its body and reflections on wet pavement.",
+        "ru": "Показать светоцикл через красное свечение на корпусе и отражения на мокрой брусчатке."
       },
       "what_i_did": {
-        "en": "For the original VFX shot, I tracked the live-action camera in After Effects, transferred it to Blender, slightly modified a ready-made Sketchfab lightcycle, and set up the lighting and CG render.\n\nFor the REWORK, I used the earlier video as the source for a substantially new AI-generated sequence and edited the result into a finished short video.",
-        "ru": "Для исходной VFX-версии я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab, настроил свет и выполнил рендер.\n\nДля REWORK использовал прежний ролик как основу для практически нового видеоряда, созданного с помощью генеративного ИИ, и смонтировал результат в законченный короткий ролик."
+        "en": "I generated the new footage with AI, selected the shots and edited them into a 15-second vertical film.",
+        "ru": "Я сгенерировал новый видеоряд с помощью ИИ, отобрал планы и смонтировал из них 15-секундный вертикальный ролик."
       },
       "result": {
         "en": "The finished REWORK is a 15-second vertical video. The gallery features six frames from the final edit and a link to the short on YouTube.",
         "ru": "REWORK — вертикальный ролик длительностью около 15 секунд. В галерее собраны шесть кадров из финального монтажа и ссылка на ролик на YouTube."
       },
       "ai_used": {
-        "en": "The REWORK video is substantially new footage generated with AI from the original VFX video and then edited. Nano Banana was used to enhance five earlier still previews. The original video combined real footage with a Blender render.",
-        "ru": "Видеоряд REWORK практически полностью создан генеративным ИИ на основе исходного VFX-ролика и затем смонтирован. Пять прежних статичных превью обработаны в Nano Banana. Исходное видео объединяло реальную съёмку и рендер из Blender."
+        "en": "Generative AI was used for the video sequence.",
+        "ru": "Видеоряд создан с помощью генеративного ИИ."
       },
       "media": [
         {
@@ -723,7 +723,8 @@
           "url": "https://youtube.com/shorts/PZq2f05Aoj8?feature=share"
         }
       ],
-      "summary_ru": "REWORK — новый вертикальный ролик, созданный с помощью генеративного ИИ на основе моей прежней VFX-работы и затем смонтированный ради более яркой, кинематографичной картинки. Цель этой версии — визуальное впечатление.\n\nИсходный ролик был техническим упражнением: я отследил камеру по реальной съёмке в After Effects, перенёс её в Blender, немного изменил готовую модель светоцикла со Sketchfab и вписал рендер в кадр."
+      "summary_ru": "Красный свет от колёс отражается на мокрой брусчатке. За основу этого короткого фан-ролика по мотивам «Трон: Арес» я взял свою прежнюю VFX-работу.",
+      "artstationUrl": "https://www.artstation.com/artwork/b0Bqnd"
     },
     {
       "id": "vfx-for-pr-agency-swipe",
