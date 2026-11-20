@@ -608,8 +608,7 @@
       "title": "Tron Lightcycle — REWORK",
       "title_ru": "Светоцикл из «Трона» — REWORK",
       "year": "2026",
-      "role": "AI Video Editor",
-      "software": "Generative AI",
+      "role": "Video Editor",
       "tris": "—",
       "topic": "VFX / SIM",
       "tags": [
@@ -620,27 +619,11 @@
       "slot": "TRON LIGHTCYCLE · REWORK",
       "thumb": "assets/thumbs/tron-lightcycle.jpg",
       "thumbRatio": "506/900",
-      "summary": "Red light from the wheels reflects on the wet pavement. I based this short fan film inspired by Tron: Ares on my earlier VFX study.",
+      "summary": "A short fan film inspired by Tron: Ares, based on my earlier lightcycle study.",
       "meta_title": "Tron Lightcycle REWORK — Short Fan Film",
       "meta_title_ru": "Светоцикл из «Трона» — REWORK",
-      "meta_description": "A red lightcycle on wet pavement in a 15-second vertical fan film inspired by Tron: Ares. Watch the final edit and explore six frames from the film.",
-      "meta_description_ru": "Красный светоцикл на мокрой брусчатке в коротком фан-ролике по мотивам «Трон: Арес». В галерее — вертикальное видео и шесть кадров из финального монтажа.",
-      "task": {
-        "en": "Show the lightcycle through the red glow on its body and reflections on wet pavement.",
-        "ru": "Показать светоцикл через красное свечение на корпусе и отражения на мокрой брусчатке."
-      },
-      "what_i_did": {
-        "en": "I generated the new footage with AI, selected the shots and edited them into a 15-second vertical film.",
-        "ru": "Я сгенерировал новый видеоряд с помощью ИИ, отобрал планы и смонтировал из них 15-секундный вертикальный ролик."
-      },
-      "result": {
-        "en": "The finished REWORK is a 15-second vertical video. The gallery features six frames from the final edit and a link to the short on YouTube.",
-        "ru": "REWORK — вертикальный ролик длительностью около 15 секунд. В галерее собраны шесть кадров из финального монтажа и ссылка на ролик на YouTube."
-      },
-      "ai_used": {
-        "en": "Generative AI was used for the video sequence.",
-        "ru": "Видеоряд создан с помощью генеративного ИИ."
-      },
+      "meta_description": "A red lightcycle on wet pavement in a short fan film inspired by Tron: Ares. Watch the reworked film and explore six stills from the new edit.",
+      "meta_description_ru": "Светоцикл с красной подсветкой на мокрой брусчатке в фан-ролике по мотивам «Трон: Арес». Новая версия прежней работы и шесть кадров из ролика.",
       "media": [
         {
           "t": "video",
@@ -657,8 +640,8 @@
           "src": "assets/gallery/tron-lightcycle/01.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/01.jpg",
           "alt": {
-            "en": "Opening frame with the TRON ARES title over a black lightcycle on wet paving",
-            "ru": "Первый кадр ролика с надписью TRON ARES поверх чёрного светоцикла на мокрой брусчатке"
+            "en": "Opening view of the lightcycle with white headlights and a glowing red wheel",
+            "ru": "Первый кадр — светоцикл с белыми фарами и красным светящимся колесом"
           }
         },
         {
@@ -668,8 +651,8 @@
           "src": "assets/gallery/tron-lightcycle/02.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/02.jpg",
           "alt": {
-            "en": "Close-up of the white headlight strip on the rounded black fairing",
-            "ru": "Ряд белых фар крупным планом на округлом чёрном обтекателе"
+            "en": "Rain beads on the saddle above three red stripes",
+            "ru": "Капли на седле над тремя красными полосами"
           }
         },
         {
@@ -679,8 +662,8 @@
           "src": "assets/gallery/tron-lightcycle/03.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/03.jpg",
           "alt": {
-            "en": "Rain on the saddle above the red illuminated side panel",
-            "ru": "Капли дождя на седле над красной светящейся боковой панелью"
+            "en": "Side view with the front wheel reflected in wet paving",
+            "ru": "Светоцикл сбоку, переднее колесо отражается в мокрой брусчатке"
           }
         },
         {
@@ -690,8 +673,8 @@
           "src": "assets/gallery/tron-lightcycle/04.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/04.jpg",
           "alt": {
-            "en": "Front wheel and saddle seen at an angle, with red light along the frame",
-            "ru": "Переднее колесо и седло под углом, вдоль рамы тянется красная подсветка"
+            "en": "Red rear wheel and its reflection on the pavement",
+            "ru": "Красное заднее колесо и его отражение на мостовой"
           }
         },
         {
@@ -701,8 +684,8 @@
           "src": "assets/gallery/tron-lightcycle/05.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/05.jpg",
           "alt": {
-            "en": "Rear wheel in profile with a bright red rim reflected on the wet street",
-            "ru": "Заднее колесо в профиль, яркий красный обод отражается на мокрой мостовой"
+            "en": "Overhead view along the saddle toward the headlights",
+            "ru": "Вид сверху вдоль седла в сторону фар"
           }
         },
         {
@@ -712,18 +695,18 @@
           "src": "assets/gallery/tron-lightcycle/06.jpg",
           "sm": "assets/gallery/tron-lightcycle/sm/06.jpg",
           "alt": {
-            "en": "Overhead view along the saddle toward the wet paving",
-            "ru": "Вид сверху вдоль седла на мокрую брусчатку"
+            "en": "Close-up of the red stripes and illuminated trim on the side panel",
+            "ru": "Красные полосы и светящийся кант боковой панели крупным планом"
           }
         },
         {
           "t": "youtube",
-      "videoId": "jY1CeUzmVpA",
+          "videoId": "jY1CeUzmVpA",
           "label": "YOUTUBE SHORTS",
-      "url": "https://youtube.com/shorts/jY1CeUzmVpA"
+          "url": "https://youtube.com/shorts/jY1CeUzmVpA"
         }
       ],
-      "summary_ru": "Красный свет от колёс отражается на мокрой брусчатке. За основу этого короткого фан-ролика по мотивам «Трон: Арес» я взял свою прежнюю VFX-работу.",
+      "summary_ru": "Короткий фан-ролик по мотивам «Трон: Арес». За основу я взял свою предыдущую работу о светоцикле.",
       "artstationUrl": "https://www.artstation.com/artwork/b0Bqnd"
     },
     {
